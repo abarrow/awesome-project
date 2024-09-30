@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16" pages="2">
   <diagram name="Page-1" id="7PugVWRnzt0f8nP_BHHg">
     <mxGraphModel dx="1113" dy="673" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,6 +105,53 @@
         <mxCell id="gYXiLXqDFFYWEIb_7XLL-20" value="Update Engage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gYXiLXqDFFYWEIb_7XLL-19">
           <mxGeometry x="0.0327" y="1" relative="1" as="geometry">
             <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="T4DLkbqbIfTTdNao_Ekx" name="Page-2">
+    <mxGraphModel dx="1320" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ht9QstNnntwHw4qNogS6-10" value="Engage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ht9QstNnntwHw4qNogS6-11" value="Sanofi / Opella&amp;nbsp;&lt;div&gt;Middleware&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ht9QstNnntwHw4qNogS6-12" value="&lt;span style=&quot;caret-color: rgb(33, 33, 33); color: rgb(33, 33, 33); font-family: Aptos, sans-serif; font-size: 14.6667px; text-align: start;&quot;&gt;SAP Unity&lt;/span&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ht9QstNnntwHw4qNogS6-13" value="&lt;span style=&quot;caret-color: rgb(33, 33, 33); color: rgb(33, 33, 33); font-family: Aptos, sans-serif; font-size: 14.6667px; text-align: start;&quot;&gt;SAP CEP&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ht9QstNnntwHw4qNogS6-14" value="&lt;span style=&quot;caret-color: rgb(33, 33, 33); color: rgb(33, 33, 33); font-family: Aptos, sans-serif; font-size: 14.6667px; text-align: start;&quot;&gt;Polaris&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ht9QstNnntwHw4qNogS6-15" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.008;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ht9QstNnntwHw4qNogS6-11" target="ht9QstNnntwHw4qNogS6-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ht9QstNnntwHw4qNogS6-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ht9QstNnntwHw4qNogS6-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="250" as="sourcePoint" />
+            <mxPoint x="529" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ht9QstNnntwHw4qNogS6-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ht9QstNnntwHw4qNogS6-11" target="ht9QstNnntwHw4qNogS6-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="260" as="sourcePoint" />
+            <mxPoint x="530" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ht9QstNnntwHw4qNogS6-18" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ht9QstNnntwHw4qNogS6-10" target="ht9QstNnntwHw4qNogS6-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
